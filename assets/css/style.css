@@ -1,0 +1,31 @@
+.label{
+    display: inline-block;
+    width: 150px;
+}
+.label:after{
+    content:"*";
+    color: red;
+    font-size: 12px;
+    vertical-align: top;
+}
+.label_Gender{
+    display: inline-block;
+    width: 150px;
+}
+input[type="email"]{
+    width: 245px;
+    background-color: blue;
+    color: white;
+    /* display: block; */
+}
+select{
+    width: 250px;
+}
+input[type="button"]{
+    display: block;
+    width: 245px;
+    background-color: rgb(10, 143, 10);
+    color: white;
+}
+
+
